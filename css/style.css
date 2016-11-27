@@ -1,0 +1,336 @@
+body{
+     transition: 0.5s;
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 41px;
+    font-weight: 700;
+}
+/*------------------ Css for Section Nav menu ---------------*/
+.navbar-default {
+     background-color: #1e1e1e;
+     border-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a{
+     background-color: #77CC6D;
+}
+.navbar-brand {
+     width: 300px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	padding: 9px 17px;
+	transition: 0.5s;
+    color: #fff;
+    border-radius: 4px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #77CC6D;
+    font-size:16px;
+}
+.navbar-default .navbar-nav li a:active {
+    color: #fff;
+    background: #77CC6D;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background: #77CC6D;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    background-color: #77CC6D;
+    border-color: #77CC6D;
+}
+.btn-primary:active:focus, .btn-primary:active:hover ,.btn-primary:hover ,.btn-primary:focus{
+    background-color: #77CC6D;
+    border-color: #77CC6D;
+}
+
+#navigation-menu h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size:20px;
+    margin-left: 0px;
+	margin-top: 16px;
+	line-height: 0;
+    color: #77CC6D;
+    transition:all 0.5s ease;
+}
+#navigation-menu h4:hover{
+    font-size:22px;
+}
+#navigation-menu small{
+    font-family: Lato-Regular;
+    font-size:14px;
+    margin-left: 12px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+/*--------------- end nav -----------*/
+
+/*--------------- start portfolio -----------*/
+
+
+
+#portfolio{
+    margin-top: 50px;
+    transition: 0.5s;
+}
+#portfolio .thumbnail::after{
+    font-family: FontAwesome;
+    font-size: 80px;
+    color: #fff;
+    padding-left: 151px;
+    padding-top: 80px;
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background: rgba(119,204,109,0.7);
+    top: 5px;
+    opacity: 0;
+    transition:all 0.5s ease;
+}
+#portfolio .col-md-4,.col-md-6{
+    margin-top: 20px;
+}
+#portfolio .thumbnail{
+    height: 260px;
+}
+#portfolio .thumbnail a{
+    
+}
+#portfolio .thumbnail img{
+    height: 100%;
+    width: 100%;
+}
+#portfolio .thumbnail:hover::after{
+    opacity: 1;
+}
+#portfolio a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #ddd;
+}
+.caption h3{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.caption p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    font-style: italic;
+}
+/*--------------- end portfolio -----------*/
+
+ /*--------------- start about -----------*/
+
+#about{
+    padding-bottom: 50px;
+    margin-top: 50px !important;
+    background: #f6f6f6;
+    transition: 0.5s;
+}
+#about h1{
+     margin-top: 100px !important;
+}
+#about .container{
+    padding-bottom: 50px;
+}
+#about img{
+    width: 80%;
+}
+
+    /*--------------- start skills -----------*/
+#skills{
+    
+}
+#skills h3{
+    background: #77CC6D;
+    margin-top: 40px;
+    color: #fff;
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+#skills .scale ul{
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+#skills .scale ul li{
+    list-style: none;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin-right: 10px;
+}
+#skills .scale .active{
+    background: #77CC6D !important;
+    border: 2px solid #77CC6D !important;
+}
+#skills .scale{
+    padding-left: 63px;
+}
+#skills .scale h4{
+    color: #333;
+    margin-bottom: 10px;
+}
+#skills .scale{
+    
+}
+
+    /*--------------- end skills ------------ */
+
+
+
+ /*--------------- end about -----------*/
+
+
+/* ----------------- Start Contact Us CSS------------------ */
+
+/* ----------------- Start Map CSS------------------ */
+
+#contact{
+    transition: 0.5s;
+}
+#map{
+    height: 350px;
+    position: relative;
+    z-index: 3;
+}
+#map iframe{
+    pointer-events: none;
+}
+/* ----------------- End Map CSS------------------ */
+
+/* ----------------- Start Footer CSS------------------ */
+
+#footer_left{
+    margin-top: 130px;
+    margin-left: 65px;
+}
+#footer_left i{
+    font-family: FontAwesome;
+    font-size: 30px;
+    color: 77CC6D;
+}
+#footer_left img{
+    width: 100px;
+    margin-left: 65px;
+}
+#footer_left .social{
+    font-family: FontAwesome;
+}
+#footer_left .social ul li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+#footer_left .social ul li a{
+    text-decoration: none;
+    color: #78858e;
+    font-size: 20px;
+    margin-right: 10px;
+}
+    
+
+#contact .footer{
+    background: #1e1e1e;
+}
+#contact_form{
+    position: relative;
+    z-index: 5;
+    margin: 0 auto;
+    margin-top: -150px;
+    width: 400px;
+    height: 400px;
+        background: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 0px 25px 1px #1e1e1e;
+    border-radius:1%; 
+    
+}
+.form-control:focus {
+    border-color: #ff4f19;
+}
+#contact_form h3{
+    margin-bottom: 30px;
+    color: #77CC6D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact_form .btn{
+    margin-bottom: 30px;
+    margin-top: 60px;
+    color: #fff;
+    background: #77CC6D;
+    padding: 12px 25px;
+}
+#contact_form .form-control {
+    color: #3a3a3a;
+    background-color: #f6f6f6;
+}
+.copyright p{
+    margin: 40px 5px;
+    color: #78858e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.copyright a{
+    color: #78858e;
+    font-size: 16px;
+    text-decoration: none;
+}
+#footer_rigth{
+    margin-top: 90px;
+    margin-left: 5px;
+}
+#footer_rigth .address{
+    font-family: FontAwesome;
+}
+#footer_rigth .address ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #78858e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+#footer_rigth .address ul li span{
+    font-family: FontAwesome;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: -33px;
+}
+#footer_rigth .address ul li a{
+    text-decoration: none;
+    color: #78858e;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* ----------------- End Footer CSS------------------ */
+
+/* ----------------- end Contact Us CSS------------------ */
