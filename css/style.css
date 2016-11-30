@@ -98,8 +98,13 @@ h1{
     height: 250px;
     background: rgba(119,204,109,0.7);
     top: 5px;
-    opacity: 0;
-    transition:all 0.5s ease;
+    /*transition:all 0.7s ease-in-out;*/
+    transform-origin: 0% 0%;
+    transform: scaleY(0);
+    transition: all 0.7s cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+#portfolio .thumbnail:hover::after{
+    transform: scaleY(1);
 }
 #portfolio .col-md-4,.col-md-6{
     margin-top: 20px;
@@ -114,24 +119,24 @@ h1{
     height: 100%;
     width: 100%;
 }
-#portfolio .thumbnail:hover::after{
-    opacity: 1;
-}
 #portfolio a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
     border-color: #ddd;
 }
-.caption h3{
+.captn h3{
     color: #333;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 700;
 }
-.caption p{
+.captn p{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: #777;
     font-style: italic;
+}
+.captn a{
+    text-decoration: none;
 }
 /*--------------- end portfolio -----------*/
 
