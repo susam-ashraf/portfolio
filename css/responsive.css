@@ -1,0 +1,201 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #footer_left {
+    margin-top: 75px;
+    margin-left: 58px;
+}
+
+    
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    #map {
+    height: 300px;
+    }
+    
+#contact_form {
+    margin-top: -150px;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    #contact_form h3{
+    margin-bottom: 22px;
+    font-size: 21px;
+}
+#contact_form .btn{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding: 5px 13px;
+}
+    #footer_left {
+    margin-top: 75px;
+    margin-left: 55px;
+}
+    #footer_left .social ul li a {
+    font-size: 15px;
+}
+    #footer_rigth .address ul li {
+    margin-top: 20px;
+    font-size: 10px;
+}
+    #footer_rigth .address ul li span {
+    font-size: 12px;
+    margin-right: 20px;
+    margin-left: -33px;
+}
+    #footer_rigth .address ul li a {
+    font-size: 10px;
+    margin-right: 10px;
+}
+    #footer_rigth {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.copyright p {
+    margin: 40px 5px;
+    font-size: 13px;
+}
+    .copyright a {
+    font-size: 13px;
+
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media screen and (min-width:  481px) and (max-width: 767px){
+    
+    #map {
+    height: 250px;
+    }
+
+    #contact_form {
+    margin-top: 0px;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    #contact_form h3{
+    margin-bottom: 22px;
+    font-size: 21px;
+}
+#contact_form .btn{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding: 5px 13px;
+}
+    #footer_left {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: center;
+}
+    #footer_left .social ul li a {
+    font-size: 15px;
+}
+    #footer_rigth .address ul li {
+    margin-top: 20px;
+    font-size: 10px;
+}
+    #footer_rigth .address ul li span {
+    font-size: 12px;
+    margin-right: 20px;
+    margin-left: -33px;
+}
+    #footer_rigth .address ul li a {
+    font-size: 10px;
+    margin-right: 10px;
+}
+    #footer_rigth {
+    margin-top: 50px;
+    margin-left: 0px;
+    text-align:center;
+}
+.copyright p {
+    margin: 40px 5px;
+    font-size: 13px;
+}
+    .copyright a {
+    font-size: 13px;
+
+    }
+ }
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    
+    #map {
+    height: 200px;
+    }
+
+    #contact_form {
+    margin-top: 0px;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    #contact_form h3{
+    margin-bottom: 22px;
+    font-size: 21px;
+}
+#contact_form .btn{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding: 5px 13px;
+}
+    #footer_left {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: center;
+}
+    #footer_left .social ul li a {
+    font-size: 15px;
+}
+    #footer_rigth .address ul li {
+    margin-top: 20px;
+    font-size: 10px;
+}
+    #footer_rigth .address ul li span {
+    font-size: 12px;
+    margin-right: 20px;
+    margin-left: -33px;
+}
+    #footer_rigth .address ul li a {
+    font-size: 10px;
+    margin-right: 10px;
+}
+    #footer_rigth {
+    margin-top: 50px;
+    margin-left: 0px;
+    text-align:center;
+}
+.copyright p {
+    margin: 40px 5px;
+    font-size: 13px;
+}
+    .copyright a {
+    font-size: 13px;
+
+    }
+    
+}
